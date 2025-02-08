@@ -1,0 +1,42 @@
+.ca-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+
+
+}
+
+.card {
+
+    width: 350px; 
+  height: 400px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  margin:20px 10px 20px 10px  ; 
+
+}
+.ca-content {
+    padding: 15px;
+
+  }
+  .deletebu{
+    border-radius: 8px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .deletebu:hover{
+    background-color:#eee ;
+    color: black;
+    transform: scale(1.06);
+  }
